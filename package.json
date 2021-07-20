@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "cordova": "ng build --base-href . --output-path cordova/www",
+    "cordova": "ng build --base-href ./ --output-path cordova/www",
     "cordova-run": "npm run cordova && cd cordova && cordova run browser"
   },
   "private": true,
